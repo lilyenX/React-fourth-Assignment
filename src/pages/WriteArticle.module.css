@@ -1,12 +1,5 @@
 /* Container & Base Styles */
-/* :local {
-  body {
-    background: radial-gradient(circle at top right, #1a1a2e, #16213e);
-    min-height: 100vh;
-    color: #ffffff;
-    font-family: 'Inter', sans-serif;
-  }
-} */
+
 
 /* The "Write" Card */
 .glassCard {
@@ -24,9 +17,10 @@
   text-align: center;
   font-size: 2rem;
   margin-bottom: 25px;
-  background: linear-gradient(90deg, #00d2ff, #3a7bd5);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color:#00d2ff ;
+  /* background: linear-gradient(90deg, #00d2ff, #3a7bd5); */
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 /* Form Styling */
