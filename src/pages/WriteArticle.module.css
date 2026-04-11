@@ -1,12 +1,12 @@
 /* Container & Base Styles */
-:local {
+/* :local {
   body {
     background: radial-gradient(circle at top right, #1a1a2e, #16213e);
     min-height: 100vh;
     color: #ffffff;
     font-family: 'Inter', sans-serif;
   }
-}
+} */
 
 /* The "Write" Card */
 .glassCard {
