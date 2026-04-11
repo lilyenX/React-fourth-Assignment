@@ -1,0 +1,13 @@
+.dashboardPage {
+  width: min(100%, 1108px);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+}
+
+@media (max-width: 960px) {
+  .dashboardPage {
+    width: 100%;
+  }
+}
