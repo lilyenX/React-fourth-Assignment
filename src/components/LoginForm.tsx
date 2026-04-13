@@ -26,7 +26,7 @@ const LoginForm = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const userId = btoa(`${formData.name}-${formData.email}`).replace(/[^a-zA-Z0-9]/g, '');  // Simple hash-like ID based on name-email
+    const userId = btoa(`${formData.name}-${formData.email}`).replace(/[^a-zA-Z0-9]/g, '');  // Simple hash-like ID based on name-email 
     // handleSignIn({...formData, id: userId})
     const success=handleSignIn({...formData, id: userId})
     if(success){
