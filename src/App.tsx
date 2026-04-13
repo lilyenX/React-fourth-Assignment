@@ -52,15 +52,14 @@ const router=createBrowserRouter([
       {
         path: '/write-article',
         element:<ProtectedRoute> <WriteArticle /> </ProtectedRoute>
+      },
+      {
+        path: '*',
+        element: <ErrorPage/>
       }
     ]
   },
   
-  
-  {
-    path: '*',
-    element: <ErrorPage/>
-  }
 ])
 const App = () => {
   return (
