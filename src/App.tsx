@@ -36,9 +36,8 @@ const router=createBrowserRouter([
       </>
     ),
     children: [
-      
       {
-        index: true,
+        path:"/",
         element: <GuestRoute><Home /></GuestRoute>
       },
       {
