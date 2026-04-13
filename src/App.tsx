@@ -1,4 +1,3 @@
-// import AuthPage from "../src/pages/AuthPage";
 import Container from "./components/Container";
 import Navbar from "./components/Navbar";
 import DashboardPage from "../src/pages/DashboardPage";
@@ -54,7 +53,7 @@ const router=createBrowserRouter([
         element:<ProtectedRoute> <WriteArticle /> </ProtectedRoute>
       },
       {
-        path: '*',
+        path: '/*',
         element: <ErrorPage/>
       }
     ]
